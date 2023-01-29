@@ -49,13 +49,25 @@
   color: rgb(203, 75, 22);
   background-color: transparent;
   text-decoration: underline;   
-  }</style>
+  }
+  ul.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.flex-item {
+    margin: 0 100px;
+}
+  </style>
   <!-- Q5 hover color above -->
-        <a href="#">Home</a>
-        <a href="#">Our team</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
-      </ul>
+  <ul class="flex-container">
+    <li class="flex-item"><a href="#">Home</a></li>
+    <li class="flex-item"><a href="#">Our team</a></li>
+    <li class="flex-item"><a href="#">Projects</a></li>
+    <li class="flex-item"><a href="#">Contact</a></li>
+</ul>
 
        <!-- A Search form is another common non-linear way to navigate through a website. -->
 
